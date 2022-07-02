@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+/* This css is for header1 */
+
+.dual-header-container {
+  position: sticky;
+  top: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header1 {
+  padding: 20px 20px;
+  background-color: #222;
+  font-size: 18px;
+}
+.header1 a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.primary-info {
+  margin-right: 10px;
+  background-color: #eb5757;
+  padding: 5px 20px;
+  font-size: 16px;
+  color: #f9f9f9;
+  border-radius: 20px;
+}
+
+/* This css is for header2 */
+
+.nav-container {
+  display: flex;
+  background-color: #eb5757;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+.nav-menu-bar {
+  display: flex;
+  align-items: center;
+}
+.nav-menu-bar a {
+  text-decoration: none;
+  color: #f9f9f9;
+  margin: 0px 20px;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+.nav-menu-bar a:hover {
+  background-color: #222;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.shopping-icon {
+  height: 20px;
+  width: 20px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  background-color: #222;
+}
+
+/* This css is for  class content1 */
+
+.content1 {
+  background-image: url("p5-content1-img.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 550px;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 1170px;
+  height: 550px;
+  margin: auto;
+}
+.main-heading {
+  width: 35%;
+  color: #f9f9f9;
+  font-size: 62px;
+  line-height: 1.2;
+  margin: 20px 0px 10px;
+}
+h1 {
+  margin: 0.67em 0;
+}
+.main-para {
+  width: 35%;
+  margin-bottom: 25px;
+  color: #f9f9f9;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.container-1-button {
+  text-decoration: none;
+  color: #f9f9f9;
+  background-color: transparent;
+  padding: 9px 25px;
+  font-size: 16px;
+  border: 1px solid white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.container-1-button:hover {
+  color: #222;
+  background-color: #f9f9f9;
+  transition: 0.5s;
+}
+
+/* This css is for clas content2 (after design whole page look into it)*/
+
+.content2 {
+  padding: 65px 0px;
+}
+
+.support-top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.content2-box {
+  margin: 0px 31px;
+  padding: 0px 15px;
+}
+.content-top-left {
+  width: 50%;
+}
+.content-top-right {
+  width: 50%;
+}
+.support-top-heading {
+  font-size: 40px;
+}
+
+.support-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.support-square {
+  background-color: #222;
+  margin: 10px;
+  color: #f9f9f9;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 45px;
+  border-radius: 5px;
+}
+.support-square-number {
+  font-size: xx-large;
+}
+.support-square-heading {
+  font-size: xx-large;
+  box-sizing: border-box;
+}
+.support-column p {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+/* This css is for class content3 */
+
+.content3 {
+  background-image: url("p5-content3-img.jpg");
+  min-height: 550px;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 0px 15px;
+}
+.container-3 {
+  display: flex;
+  min-height: 550px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px 15px;
+  margin: 0px 31px;
+}
+.safe-heading {
+  font-size: 45px;
+  color: #f9f9f9;
+  margin: 20px 0px 10px;
+  width: 45%;
+  text-align: right;
+}
+.safe-paragraph {
+  font-size: 18px;
+  color: #f9f9f9;
+  margin: 0px 0px 25px;
+  width: 35%;
+  text-align: right;
+}
+.btn-light {
+  text-decoration: none;
+  color: #222;
+  background-color: #f9f9f9;
+  margin-right: 10px;
+  padding: 9px 25px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.btn-light:hover {
+  color: #f9f9f9;
+  background-color: #eb5757;
+  transition: 0.3s;
+}
+
+/* This css is for class content4 */
+
+.content4 {
+  padding: 65px 0px;
+}
+.content-4-sub {
+  padding: 0px 15px;
+  margin: 0px 31px;
+}
+.shop-top-wrap {
+  margin: 0px 0px 40px;
+}
+.shop-img {
+  width: 100%;
+  height: 400px;
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+}
+.shop-item-name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.shop-item-price {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.shop-button-wrapper {
+  text-align: center;
+}
+.shop-button-wrapper a {
+  text-decoration: none;
+  color: #f9f9f9;
+  background-color: #eb5757;
+  padding: 9px 25px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.shop-button-wrapper a:hover {
+  background-color: #222;
+  transition: 0.3s;
+}
+.shop-more {
+  text-align: center;
+}
+.product-list-wrapper {
+  margin-bottom: 60px;
+}
+.dark-black-button {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #222;
+  font-size: 16px;
+  padding: 9px 25px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.dark-black-button:hover {
+  background-color: #eb5757;
+  transition: 0.3s;
+}
+
+/* This css is for class content5 */
+
+.content5 {
+  padding: 65px 0px;
+}
+.sub-content5 {
+  margin: 0px 30px;
+  padding: 0px 15px;
+}
+.shop-local-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 500px;
+  box-sizing: border-box;
+}
+.shop-local-right {
+  background-color: #222;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+  padding: 45px;
+  color: #f9f9f9;
+  /* this change
+  z-index: -2; */
+}
+.shop-local-content-wrapper {
+  padding: 0px 145px;
+  width: 40%;
+}
+.shop-local-heading {
+  font-size: 45px;
+  margin: 0px 0px 10px;
+}
+.shop-local-content-wrapper p {
+  margin-bottom: 10px;
+}
+
+/* .shop-local-left img {
+  position: absolute;
+  top: 10;
+  left: 40px;
+  width: 300px;
+  height: 400px;
+  z-index: -1;
+} */
+
+.footer-section {
+  padding-top: 65px;
+  padding-bottom: 10px;
+  background-color: #222;
+  height: 120px;
+}
+.footer-container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #f9f9f9;
+}
+.footer-bottom-wrapper a {
+  color: #eb5757;
+}
+.social-footer-link img {
+  width: 30px;
+  margin-right: 20px;
+}
+.social-footer-link img:hover {
+  filter: brightness(60%);
+  transition: 0.3s;
+}
